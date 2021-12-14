@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const Pool = require("pg").Pool;
 const pool = new Pool({
-  user: "postgres ",
+  user: "postgres",
   host: "localhost",
   database: "mytestdb",
   password: "admin",
